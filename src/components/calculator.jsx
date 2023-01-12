@@ -1,34 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
 import calculate from '../logic/calculate';
 import DisplayButtons from './DisplayButtons';
 
-class Calculator extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      total: 0,
-      next: null,
-      operation: null,
-    };
-    this.handleEvent = this.handleEvent.bind(this);
-  }
+const Calculator = () => {
+  const [state, setState] = useState({ total: 0, next: null, operation: null });
 
-  handleEvent(event) {
+  const handleEvent = (event) => {
     const value = event.target.innerText;
-    const res = calculate(this.state, value);
-    this.setState(res);
-  }
-
-  render() {
-    const { total, next, operation } = this.state;
-    const r = (total || '') + (operation || '') + (next || '') || 0;
-    return (
-      <div className="calculator">
-        <input className="calculator-input" disabled value={r} />
-        <DisplayButtons handleClick={this.handleEvent} />
-      </div>
-    );
-  }
-}
+    const res = calculate(state, value);
+    setState(res);
+  };
+  const { total, next, operation } = state;
+  const r = (total || '') + (operation || '') + (next || '') || 0;
+  return (
+    <div className="calculator">
+      <input className="calculator-input" disabled value={r} />
+      <DisplayButtons handleClick={handleEvent} />
+    </div>
+  );
+};
 
 export default Calculator;
