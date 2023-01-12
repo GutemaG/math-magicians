@@ -1,15 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-// eslint-disable-next-line react/prefer-stateless-function
-export default class Button extends React.Component {
-  render() {
-    const { value, handleClick, className } = this.props;
-    return (
-      <button type="button" className={className} onClick={handleClick}>{value}</button>
-    );
-  }
-}
+const Button = (props) => {
+  const { value, handleClick, className } = props;
+  return (
+    <button type="button" className={className} onClick={handleClick}>
+      {value}
+    </button>
+  );
+};
 
 Button.propTypes = {
   value: PropTypes.string.isRequired,
@@ -20,3 +19,5 @@ Button.propTypes = {
 Button.defaultProps = {
   className: 'btn',
 };
+
+export default Button;
