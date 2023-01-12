@@ -11,7 +11,7 @@
   padding: 20px;
   background-color: #ccc;
   border: none;
-  direction: rtl;
+  text-align: right;
 }
 
 .calculator-input:focus {
@@ -23,6 +23,8 @@
   border: 1px solid #ccc;
   padding: 20px;
   text-align: center;
+  background-color: #fff;
+  cursor: pointer;
 }
 
 .operator {
