@@ -13,7 +13,7 @@ const Calculator = () => {
   const { total, next, operation } = state;
   const r = (total || '') + (operation || '') + (next || '') || 0;
   return (
-    <div className="calculator">
+    <div className="calculator container">
       <input className="calculator-input" disabled value={r} />
       <DisplayButtons handleClick={handleEvent} />
     </div>

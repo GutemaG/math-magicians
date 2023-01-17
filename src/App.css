@@ -7,7 +7,7 @@
 }
 
 .calculator-input {
-  width: 510px;
+  width: 550px;
   padding: 20px;
   background-color: #ccc;
   border: none;
@@ -33,4 +33,35 @@
 
 .zero {
   grid-column: 1/ span 2;
+}
+
+.nav {
+  background: #ccc;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  text-transform: uppercase;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+.nav-items {
+  display: flex;
+  gap: 10px;
+}
+
+.nav-items .nav-item a{
+  padding: 1rem;
+}
+
+.nav-item a:hover{
+  background-color: #ddd;
+  border-radius: 10px;
+  text-decoration: underline;
+}
+
+.container {
+  padding: 2rem;
 }

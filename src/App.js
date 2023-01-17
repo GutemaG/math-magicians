@@ -1,9 +1,15 @@
 import './App.css';
 import React from 'react';
-import Calculator from './components/calculator';
+import { Outlet } from 'react-router-dom';
+import NavBar from './components/NavBar';
 
 const App = () => (
-  <Calculator />
+  <>
+    <NavBar />
+    <div>
+      <Outlet />
+    </div>
+  </>
 );
 
 export default App;
