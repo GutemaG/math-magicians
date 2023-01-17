@@ -1,0 +1,13 @@
+.Home {
+  max-width: 80%;
+  margin: auto;
+}
+
+.welcome-msg {
+  margin-bottom: 1.5rem;
+}
+
+.Home p {
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+}

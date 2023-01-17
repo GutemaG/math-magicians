@@ -1,4 +1,3 @@
-
 .btns {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -6,8 +5,15 @@
   cursor: pointer;
 }
 
+.calculator {
+  display: flex;
+  justify-content: space-around;
+  max-width: 80%;
+  margin: auto;
+}
+
 .calculator-input {
-  width: 510px;
+  width: 550px;
   padding: 20px;
   background-color: #ccc;
   border: none;
