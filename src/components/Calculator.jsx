@@ -13,9 +13,12 @@ const Calculator = () => {
   const { total, next, operation } = state;
   const r = (total || '') + (operation || '') + (next || '') || 0;
   return (
-    <div className="calculator container">
-      <input className="calculator-input" disabled value={r} />
-      <DisplayButtons handleClick={handleEvent} />
+    <div className="calculator">
+      <h1>Lets Do Some Math!</h1>
+      <div>
+        <input className="calculator-input" disabled value={r} />
+        <DisplayButtons handleClick={handleEvent} />
+      </div>
     </div>
   );
 };

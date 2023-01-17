@@ -1,11 +1,11 @@
 import React from 'react';
 
 const Quote = () => (
-  <div className="container">
+  <div className="quote">
     <p>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-      Laudantium eum ullam corporis fugiat repudiandae, eligendi,
-      ducimus vitae voluptas, id eos alias est at repellendus sed atque.
+      Mathematics is not about number, equations,
+      computations or algorithms: It is about understanding.
+      -William Paul Thrustor
     </p>
   </div>
 );

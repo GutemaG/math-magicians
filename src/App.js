@@ -6,7 +6,7 @@ import NavBar from './components/NavBar';
 const App = () => (
   <>
     <NavBar />
-    <div>
+    <div className="container">
       <Outlet />
     </div>
   </>

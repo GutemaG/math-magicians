@@ -6,6 +6,11 @@
   cursor: pointer;
 }
 
+.calculator {
+  display: flex;
+  justify-content: space-around;
+}
+
 .calculator-input {
   width: 550px;
   padding: 20px;
@@ -65,4 +70,27 @@
 
 .container {
   padding: 2rem;
+}
+
+.quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15%;
+}
+
+.quote p {
+  font-size: 1.5rem;
+}
+
+.home {
+  max-width: 80%;
+  margin: auto;
+}
+.welcome-msg {
+  margin-bottom: 1.5rem;
+}
+
+.home p {
+  margin-top: 1.5rem;
 }
