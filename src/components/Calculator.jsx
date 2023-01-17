@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import calculate from '../logic/calculate';
 import DisplayButtons from './DisplayButtons';
+import './styles/Calculator.css';
 
 const Calculator = () => {
   const [state, setState] = useState({ total: 0, next: null, operation: null });

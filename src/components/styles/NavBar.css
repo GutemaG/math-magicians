@@ -1,0 +1,32 @@
+.nav {
+  background: #ccc;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  text-transform: uppercase;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+.nav-items {
+  display: flex;
+  gap: 10px;
+}
+
+.nav-items .nav-item a {
+  padding: 1rem;
+}
+
+.nav-item a:hover {
+  background-color: #ddd;
+  border-radius: 10px;
+  text-decoration: underline;
+}
+
+.active {
+  font-weight: bold;
+  text-decoration: underline;
+}

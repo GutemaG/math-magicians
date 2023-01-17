@@ -1,0 +1,10 @@
+.quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15%;
+}
+
+.quote p {
+  font-size: 1.5rem;
+}
