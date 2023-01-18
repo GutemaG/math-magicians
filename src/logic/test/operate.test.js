@@ -18,14 +18,12 @@ describe('Testing operator logic', () => {
   test('testing unknown operation', () => {
     const fNum = 20;
     const sNum = 10;
-    // const result = operate(fNum, sNum, '#');
     expect(() => operate(fNum, sNum, '#')).toThrow();
   });
 
   test('testing division by zero', () => {
     const fNum = 20;
     const sNum = 0;
-    // const result = operate(fNum, sNum, '#');
     expect(operate(fNum, sNum, '÷')).toEqual('Can\'t divide by 0.');
   });
 });
