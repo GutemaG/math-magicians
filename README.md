@@ -17,7 +17,6 @@
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
-  - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -36,7 +35,7 @@
 
 # 📖 Math Magicians <a name="about-project"></a>
 
-**Math Magicians** is a...
+**Math Magicians** is a single page application contains 3 pages home, calculator and quotes and It is very simple react app.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -53,28 +52,24 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **React routing**
+- **testing**
+- **Single page application(SPA)**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+<!-- ## 🚀 Live Demo <a name="live-demo"></a> -->
 
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+<!-- - [Live Demo Link](https://yourdeployedapplicationlink.com) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -115,17 +110,12 @@ Example command:
 
 To run tests, run the following command:
 
-<!--
-Example command:
-
 ```sh
-  bin/rails test test/models/article_test.rb
+  npm test
 ```
---->
-
 ### Deployment
 
-You can deploy this project using:
+You can deploy this project using: Github page
 
 <!--
 Example:
@@ -141,19 +131,16 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Birhanu Gudisa**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/GutemaG)
+- Twitter: [@twitterhandle](https://twitter.com/biranugudisa3)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/birhanugudisa)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+👤 **Diego Cuenca**
+- GitHub: [@dgcuenca](https://github.com/dgcuenca)
+- LinkedIn: [LinkedIn](www.linkedin.com/in/diego-cuenca)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -161,10 +148,8 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
 
-- [ ] **React js**
-- [ ] **Router**
+- [ ] **Add more page**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -182,8 +167,6 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
 If you like this project...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -191,8 +174,6 @@ If you like this project...
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-> Give credit to everyone who inspired your codebase.
 
 I would like to thank...
 
