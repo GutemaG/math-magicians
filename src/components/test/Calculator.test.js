@@ -33,4 +33,22 @@ describe('Testing Calculator component', () => {
     fireEvent.click(screen.getByText('='));
     expect(screen.getByTestId('resultInput')).toHaveValue('81');
   });
+
+  it('Testing calculator component user interaction for substracting two numbers', () => {
+    render(<Calculator />);
+    fireEvent.click(screen.getByText('9'));
+    fireEvent.click(screen.getByText('-'));
+    fireEvent.click(screen.getByText('9'));
+    fireEvent.click(screen.getByText('='));
+    expect(screen.getByTestId('resultInput')).toHaveValue('0');
+  });
+
+  it('Testing calculator component user interaction for dividing by zero', () => {
+    render(<Calculator />);
+    fireEvent.click(screen.getByText('9'));
+    fireEvent.click(screen.getByText('÷'));
+    fireEvent.click(screen.getByText('0'));
+    fireEvent.click(screen.getByText('='));
+    expect(screen.getByTestId('resultInput')).toHaveValue('Can\'t divide by 0.');
+  });
 });

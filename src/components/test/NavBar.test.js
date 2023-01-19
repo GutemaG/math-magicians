@@ -29,4 +29,14 @@ describe('Testing Component render correctly', () => {
     const welcomeMsg = screen.getByText('Welcome to our Page!');
     expect(welcomeMsg).toBeInTheDocument();
   });
+  it('NavBar interaction, quote link', () => {
+    render(
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>,
+    );
+    fireEvent.click(screen.getByText('Quote'));
+    const quoteMsg = screen.getByText('Mathematics is not about number, equations, computations or algorithms: It is about understanding. -William Paul Thrustor');
+    expect(quoteMsg).toBeInTheDocument();
+  });
 });
