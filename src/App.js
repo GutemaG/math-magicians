@@ -1,6 +1,9 @@
 import React from 'react';
-import { Outlet } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
+import Calculator from './components/Calculator';
+import Home from './components/Home';
 import NavBar from './components/NavBar';
+import Quote from './components/Quote';
 
 const App = () => {
   const style = {
@@ -10,7 +13,11 @@ const App = () => {
     <>
       <NavBar />
       <div style={style}>
-        <Outlet />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/calculator" element={<Calculator />} />
+          <Route path="/quote" element={<Quote />} />
+        </Routes>
       </div>
     </>
   );
