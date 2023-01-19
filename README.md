@@ -17,7 +17,6 @@
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
-  - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -53,18 +52,18 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[react routing]**
-- **[testing]**
-- **[Single page application]**
+- **React routing**
+- **testing**
+- **Single page application(SPA)**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+<!-- ## 🚀 Live Demo <a name="live-demo"></a> -->
 
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+<!-- - [Live Demo Link](https://yourdeployedapplicationlink.com) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -150,8 +149,7 @@ Example:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **React js**
-- [ ] **Router**
+- [ ] **Add more page**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
